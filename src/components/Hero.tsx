@@ -30,9 +30,9 @@ export default function Hero() {
               className="bg-orange-600 text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-orange-700 transition-all transform hover:scale-105">
               Comprar Ahora
             </button>
-            <button className="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-white/20 transition-all border border-white/30">
+            <a href="#caracteristicas" className="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-white/20 transition-all border border-white/30">
               Ver Especificaciones
-            </button>
+            </a>
           </div>
         </div>
 

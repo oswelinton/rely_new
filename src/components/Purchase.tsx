@@ -156,13 +156,13 @@ export default function Purchase({ isOpen, onClose }: PurchaseModalProps) {
             <form onSubmit={handleSubmit} className="space-y-4">
               <div className="bg-gray-900 p-4 rounded-lg border border-gray-800 mb-6">
                 <p className="text-gray-400 text-sm mb-1">Precio del vehículo</p>
-                <p className="text-3xl font-bold text-orange-500">$50,000 USD</p>
+                <p className="text-3xl font-bold text-orange-500">$50.000 USD</p>
               </div>
 
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <label className="block text-sm font-medium text-gray-300 mb-2">
-                    Nombre
+                    Nombres
                   </label>
                   <input
                     type="text"
@@ -170,12 +170,12 @@ export default function Purchase({ isOpen, onClose }: PurchaseModalProps) {
                     value={formData.firstName}
                     onChange={handleInputChange}
                     className="w-full px-4 py-2 bg-gray-900 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-orange-500 transition-colors"
-                    placeholder="Juan"
+                    placeholder="Nombres"
                   />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-gray-300 mb-2">
-                    Apellido
+                    Apellidos
                   </label>
                   <input
                     type="text"
@@ -183,14 +183,14 @@ export default function Purchase({ isOpen, onClose }: PurchaseModalProps) {
                     value={formData.lastName}
                     onChange={handleInputChange}
                     className="w-full px-4 py-2 bg-gray-900 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-orange-500 transition-colors"
-                    placeholder="Pérez"
+                    placeholder="Apellidos"
                   />
                 </div>
               </div>
 
               <div>
                 <label className="block text-sm font-medium text-gray-300 mb-2">
-                  Email
+                  Correo Electronico
                 </label>
                 <input
                   type="email"
@@ -198,7 +198,7 @@ export default function Purchase({ isOpen, onClose }: PurchaseModalProps) {
                   value={formData.email}
                   onChange={handleInputChange}
                   className="w-full px-4 py-2 bg-gray-900 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-orange-500 transition-colors"
-                  placeholder="juan@ejemplo.com"
+                  placeholder="correo@electronico.com"
                 />
               </div>
 
@@ -212,7 +212,7 @@ export default function Purchase({ isOpen, onClose }: PurchaseModalProps) {
                   value={formData.phone}
                   onChange={handleInputChange}
                   className="w-full px-4 py-2 bg-gray-900 border border-gray-700 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-orange-500 transition-colors"
-                  placeholder="+1 (555) 123-4567"
+                  placeholder="+58 (0000) 000-00-00"
                 />
               </div>
 

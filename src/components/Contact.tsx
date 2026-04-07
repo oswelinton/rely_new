@@ -7,10 +7,10 @@ export default function Contact() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-              Agenda tu prueba de manejo
+              Tu próximo vehículo está a un clic de distancia.
             </h2>
             <p className="text-xl text-gray-400 mb-8">
-              Experimenta la potencia de RELY. Nuestro equipo está listo para atenderte.
+              Déjanos tus datos y te asesoraremos.
             </p>
 
             <div className="space-y-6">
@@ -19,8 +19,8 @@ export default function Contact() {
                   <Phone className="text-orange-600" size={20} />
                 </div>
                 <div>
-                  <h3 className="text-white font-semibold mb-1">Teléfono</h3>
-                  <p className="text-gray-400">+1 (555) 123-4567</p>
+                  <h3 className="text-white font-semibold mb-1">Teléfono de contacto</h3>
+                  <p className="text-gray-400">+58 (0000) 000-00-00</p>
                 </div>
               </div>
 
@@ -30,7 +30,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="text-white font-semibold mb-1">Email</h3>
-                  <p className="text-gray-400">contacto@rely.com</p>
+                  <p className="text-gray-400">soporte@rely.com</p>
                 </div>
               </div>
 
@@ -40,7 +40,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="text-white font-semibold mb-1">Ubicación</h3>
-                  <p className="text-gray-400">Av. Principal 123, Ciudad</p>
+                  <p className="text-gray-400">Av Francisco de Miranda, Chacao, Caracas</p>
                 </div>
               </div>
             </div>
@@ -50,25 +50,25 @@ export default function Contact() {
             <form className="space-y-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">
-                  Nombre completo
+                  Nombres y Apellidos
                 </label>
                 <input
                   type="text"
                   id="name"
                   className="w-full px-4 py-3 bg-gray-900 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-orange-600 transition-colors"
-                  placeholder="Tu nombre"
+                  placeholder="Nombres Apellidos"
                 />
               </div>
 
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">
-                  Email
+                  Correo electronico
                 </label>
                 <input
                   type="email"
                   id="email"
                   className="w-full px-4 py-3 bg-gray-900 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-orange-600 transition-colors"
-                  placeholder="tu@email.com"
+                  placeholder="correo@email.com"
                 />
               </div>
 
@@ -80,7 +80,7 @@ export default function Contact() {
                   type="tel"
                   id="phone"
                   className="w-full px-4 py-3 bg-gray-900 border border-gray-700 rounded-lg text-white focus:outline-none focus:border-orange-600 transition-colors"
-                  placeholder="+1 (555) 123-4567"
+                  placeholder="+58 (000) 000-00-00"
                 />
               </div>
 
